@@ -1,0 +1,52 @@
+# ============================================================
+# IFTS Nº 24 — Lab de Introducción al PLN, LLMs y Agentic AI
+# Dependencias del entorno de trabajo — Edición 2026
+# ============================================================
+
+# --- Jupyter ---
+jupyter
+jupyterlab
+ipywidgets
+watermark
+
+# --- Análisis de datos ---
+pandas
+numpy
+scikit-learn
+
+# --- Web scraping ---
+requests
+beautifulsoup4
+trafilatura
+scrapling[all]>=0.4.2
+playwright
+yt-dlp
+
+# --- Audio y transcripción ---
+openai-whisper
+faster-whisper
+torch
+torchaudio
+transformers
+accelerate
+
+# NOTA: `ffmpeg` y `ffprobe` se instalan a nivel sistema, no con `pip`.
+# Windows: winget install Gyan.FFmpeg
+# Ubuntu/Debian: sudo apt install ffmpeg
+# macOS: brew install ffmpeg
+
+# --- PLN ---
+nltk
+spacy
+# Nota: el cuaderno integrador usa el modelo `es_core_news_sm`.
+# Instalación del modelo: `python -m spacy download es_core_news_sm`
+stanza
+spacy-stanza
+
+# --- Visualización ---
+matplotlib
+seaborn
+wordcloud
+
+# --- Interfaces ---
+gradio
