@@ -1,0 +1,29 @@
+# ============================================================
+# IFTS Nº 24 — Lab de Introducción al PLN, LLMs y Agentic AI
+# Dependencias específicas de la Unidad 13: Large Language Models
+# ============================================================
+
+# --- Core y Computación ---
+torch
+numpy
+pandas
+scipy
+
+# --- Modelos de Lenguaje y Hugging Face ---
+transformers>=4.41.2
+accelerate>=0.31.0
+datasets
+tiktoken
+
+# --- Embeddings y Modelado Semántico ---
+sentence-transformers
+gensim
+scikit-learn
+
+# --- PLN y Procesamiento de Documentos ---
+spacy
+pypdf
+
+# --- Interfaces y Jupyter ---
+gradio
+ipywidgets
